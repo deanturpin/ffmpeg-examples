@@ -1,12 +1,11 @@
-# Rotate a video
-```
-ffmpeg -ss 79 -i VID_20160917_183404.mp4 -t 3.75 -r 24 -y -vf 'rotate=PI' hs.gif
-```
+# Rotate
+```ffmpeg -ss 79 -i VID_20160917_183404.mp4 -t 3.75 -r 24 -y -vf 'rotate=PI' hs.gif```
+
+# Reverse
+```ffmpeg -i REC00019.AVI -vf reverse rev.mp4```
 
 # MP4 to looped GIF
-```
-ffmpeg -i blah.mp4 -loop 0 looped.gif
-```
+```ffmpeg -i blah.mp4 -loop 0 looped.gif```
 
 # Prepare MP3 for YouTube
 ```
