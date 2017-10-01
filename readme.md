@@ -19,5 +19,5 @@ Specify audio first. Includes offset and write to a MOV as WhatsApp doesn't reco
 
 ```
 ffmpeg -i audio.mp3 -i video.mov -shortest new.mov -y
-ffmpeg -i audio.mp3 -i video.mov -vf reverse -shortest new.mov -y
+ffmpeg -v verbose -i Dance.mp3 -i blah.mp4 -shortest -vf reverse syd.mov -y
 ```
